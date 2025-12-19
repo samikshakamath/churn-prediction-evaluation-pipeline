@@ -1,4 +1,4 @@
-# 🧠 Customer Churn Evaluation and Modeling Framework – FoodCorp
+# Customer Churn Evaluation and Modeling Framework – FoodCorp
 
 
  - **Author**: Samiksha Kamath 
@@ -8,7 +8,7 @@ This repository presents a structured, data-driven system for defining and evalu
 
 ---
 
-## 📌 Analytical Objectives
+##  Analytical Objectives
 
 - Redefine churn using time-sensitive behavioral rules based on inter-transaction gaps.
 - Identify optimal inactivity threshold (β) through statistical distribution analysis.
@@ -18,15 +18,15 @@ This repository presents a structured, data-driven system for defining and evalu
 
 ---
 
-## 📈 Methodology Summary
+## Methodology Summary
 
-### 🧩 Churn Definition
+### Churn Definition
 A customer is flagged as churned if:
 - (current_date - last_transaction_date) > β
 - - β is a tunable threshold informed by inter-visit gap quantiles.
 - Strict inequality ensures proper reactivation and one-time churn flagging.
 
-### 🔍 Evaluation Pipeline
+### Evaluation Pipeline
 1. **Inter-Visit Distribution Analysis**  
    Quantifies customer frequency patterns to support evidence-based β selection.
 
@@ -41,7 +41,7 @@ A customer is flagged as churned if:
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 - **`Churn_Prediction_Model_Evaluation.html`**  
   Interactive statistical evaluation with distributional analysis and threshold comparisons
@@ -60,7 +60,7 @@ A customer is flagged as churned if:
 
 ---
 
-## 🧪 Tools & Libraries
+## Tools & Libraries
 
 - **Python** (pandas, numpy, matplotlib)
 - **HTML Reports** (interactive visual analysis)
@@ -68,7 +68,7 @@ A customer is flagged as churned if:
 
 ---
 
-## 💡 Strategic Value
+## Strategic Value
 
 This churn modeling framework supports:
 - Data-driven targeting of high-risk customers
