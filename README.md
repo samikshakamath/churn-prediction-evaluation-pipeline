@@ -8,7 +8,7 @@ This repository implements a **deployment-ready machine learning system** for pr
 The objective is to proactively identify **currently active customers at high risk of imminent churn**, enabling timely and targeted retention interventions before disengagement becomes irreversible.
 
 Unlike naïve inactivity-based churn definitions, this project adopts a **conditional, forward-looking churn framework** aligned with FoodCorp’s real-world retention strategy.
-
+ 
 ---
 
 ## Business Objective
